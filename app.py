@@ -5,9 +5,9 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Mi Asistente Robot")
 st.write(
-   "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Hola, este es un robot asistente que funciona con un modelo GPT-3.5 para generar respuestas. "
+   "Para utilizar este asistente, simplemente teclea tu pregunta [here](https://platform.openai.com/account/api-keys). "
+   "En este enlace podrás aprender como diseñar tu robot paso a paso [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
