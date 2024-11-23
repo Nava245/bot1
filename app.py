@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-
+st.balloons()
 # Show title and description.
 st.title("💬 Mi Asistente Robot")
 st.write(
@@ -20,7 +20,7 @@ if prompt==None:
 with st.chat_message("user"):
    st.markdown(prompt)
 
-st.balloons()
+
 # Generate a response using the OpenAI API.
 
 stream = client.chat.completions.create(
